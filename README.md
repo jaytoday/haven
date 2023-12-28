@@ -5,55 +5,45 @@
 </p>
 
 <p align="center">
-    <b>Fine-Tune and Deploy LLMs On Your Own Infrastructure</b>
+    <b>Build AI models for specialized tasks.
+</b>
 </p>
 
 <div align="center">
 
-[💻 Quickstart](https://docs.haven.run/)
+[💻 Website](https://docs.haven.run/)
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 [📄 Docs](https://docs.haven.run/)
+<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+[☁️ Hosted App](https://app.haven.run/models)
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 [💬 Discord](https://discord.gg/JDjbfp6q2G)
 <br>
 
 <p align="center">
-    Haven lets you build LLM-powered applications <b>hosted entirely on your own infrastructure</b>.<br>
-    Just select a model to run - Haven will set up a production-ready 
-  API server in your private cloud.
+    Haven gives you tools needed to build specialized large language models. <br>Our platform lets you to fine-tune LLMs through a simple UI and evaluate them based on a wide range of criteria.
+	
 </p>
+<br>
 
 </div>
 
 <br>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/havenhq/haven/dev/diagram.svg">
-</p>
+## Welcome 🥳
 
-## Getting Started 🔥
+Welcome to the Haven repository! We initially started out building functionality for LLM fine-tuning, but noticed that most people actually struggle with evaluation and data collection rather than model training itself. To address this, we're planning to add the following features soon:
 
-Setting up an LLM server requires just three steps:
+- Evaluation: Use prebuilt or define custom evaluation metrics and run experiments comparing models across them
+- Visualization: Visualize and search through your experiments to get insights on model performance
+- Data Collection: Collecting and formatting training datasets is annyoing. We don't really know how to solve this yet, but we're trying to figure it out!
 
-1. Get an API key for a Google Cloud service account
-2. Deploy Haven's manager container on a Google Cloud instance
-3. Spin up a model worker using the Python SDK
+If you have feedback or suggestions on these problems, **please reach out!** You can join our [Discord](https://discord.com/invite/JDjbfp6q2G), write us an [email](mailto:hello@haven.run), or [schedule a call](https://cal.com/justus-mattern-xfnomx/30-min-chat).
 
-A description of these steps can be found in our [documentation](https://docs.haven.run/).
 
 <br>
 
-## Roadmap 🚀
+## Getting Started :rocket:
 
-We're constantly building new features and would love your feedback! Here's what we are currently looking to integrate into our platform:
+Instructions to self-host as well as support for AWS, GCP and Azure will follow soon. In the meantime, you can try our hosted app [here](https://app.haven.run/).
 
-- [x] Inference Workers
-- [x] Google Cloud Support
-- [ ] Fine-Tuning Workers
-- [ ] AWS Support
-
-<br>
-
-## Learn More 🔍
-
-To learn more about our platform, you should refer to our [documentation](https://docs.haven.run/).
